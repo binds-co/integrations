@@ -46,7 +46,7 @@ Este formato pode evitar cálculos de fuso horário e horário de verão na sua 
 - [NodeJS](./NodeJS/)
 - [Objective-C](./Objective-C/)
 - [OCaml](./OCaml/)
-- [PHP](./PHP/)
+- [PHP](./php/)
 - [Python](./Python/)
 - [Ruby](./Ruby/)
 - [Shell](./Shell/)
