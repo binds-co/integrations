@@ -11,7 +11,7 @@ func main() {
 
 	url := "https://app.binds.co/api/seeds"
 
-	payload := strings.NewReader("{\"collector\":\"56a351796b80339c09ff1b76\",\"from\":{\"name\":\"Ezequias Dinella\",\"email\":\"ezequias@binds.co\"}}")
+	payload := strings.NewReader("{\"collector\":\"56a351796b80339c09ff1b76\",\"from\":{\"name\":\"Charlie Parker\",\"email\":\"hello@binds.co\"}}")
 
 	req, _ := http.NewRequest("POST", url, payload)
 

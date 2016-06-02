@@ -13,12 +13,12 @@ Content/Type: application/json; charset=UTF-8
 {
   "collector": "56a351796b80339c09ff1b76",
   "from": {
-    "name": "Ezequias Dinella",
-    "email": "ezequias@binds.co"
+    "name": "Charlie Parker",
+    "email": "hello@binds.co"
   },
   "metadata": {
-    "nome": "Ezequias Dinella",
-    "email": "ezequias@binds.co",
+    "nome": "Charlie Parker",
+    "email": "hello@binds.co",
     "telefone": "+5511000000000",
     "campoPersonalizado": "XXXXXXXXXXX"
   }

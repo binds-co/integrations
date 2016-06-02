@@ -7,8 +7,8 @@ $token = '56a351796b80339c09ff1b76';
 $requestBody = array(
   'collector' => $token,
   'from' => array(
-    'name' => 'Ezequias Dinella',
-    'email' => 'ezequias@binds.co'
+    'name' => 'Charlie Parker',
+    'email' => 'hello@binds.co'
   )
 );
 

@@ -5,8 +5,8 @@ NSDictionary *headers = @{ @"content-type": @"application/json; charset=UTF-8" }
 NSData *postData = [[NSData alloc] initWithData:[@"{
   "collector": "56a351796b80339c09ff1b76",
   "from": {
-    "name": "Ezequias Dinella",
-    "email": "ezequias@binds.co"
+    "name": "Charlie Parker",
+    "email": "hello@binds.co"
   }
 }" dataUsingEncoding:NSUTF8StringEncoding]];
 
