@@ -51,3 +51,10 @@ Este formato pode evitar cálculos de fuso horário e horário de verão na sua 
 - [Ruby](./Ruby/)
 - [Shell](./Shell/)
 - [Swift](./Swift/)
+
+## Outras referências
+
+Veja mais informações em [Binds.co](http://binds.co/) ou entre em contato:
+
+- Por email: [hello@binds.co](mailto:hello@binds.co)
+- Por telefone: [+55 11 2985 2980](tel:+551129852980)
