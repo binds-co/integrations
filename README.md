@@ -25,11 +25,11 @@ Content/Type: application/json; charset=UTF-8
 }
 ```
 
-O retorno esperado para esta requisição é o HTTP status 201 Created, indicando que o evento foi recebido e processado com sucesso. Retornos de código diferente podem ocorrer, com códigos na faixa de 4xx, descrevendo algum eventual problema no formato da requisição.
+O retorno esperado para esta requisição é o [HTTP status 201 Created](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.2), indicando que o evento foi recebido e processado com sucesso. Retornos de código diferente podem ocorrer, com [códigos na faixa de 4xx](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4), descrevendo algum eventual problema no formato da requisição.
 
 O campo `collector` é obrigatório, ele é usado para identificar a origem desta integração. O nome e e-mail também são obrigatórios. Também é possível incluir outros campos, em `metadata`, para enriquecer os relatórios.
 
-A informação deve ser enviada no formato JSON com encoding UTF-8. Em resposta, a API sempre retorna dados em UTF-8.
+A informação deve ser enviada no [formato JSON](http://www.json.org/json-pt.html) com encoding UTF-8. Em resposta, a API sempre retorna dados em UTF-8.
 
 Todas as datas na API são no formato ISO8601, por exemplo:  `2015-05-21T13:05:04.031Z`. O fuso horário é sempre GMT neste formato.
 
