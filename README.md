@@ -7,7 +7,7 @@ Por exemplo, experimente fazer esta requisição, com seu próprio `collector`, 
 
 ```
 POST https://app.binds.co/api/seeds
-Content/Type: application/json; charset=UTF-8
+Content-Type: application/json; charset=UTF-8
 ```
 ```
 {
