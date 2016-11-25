@@ -1,7 +1,7 @@
-# Integração com a plataforma Binds.co
+# Integração com a plataforma binds.co
 
-A seguir reunimos as principais informações para integrar com a plataforma Binds.co.
-A idéia é notificar a plataforma Binds.co quando ocorre o evento em questão, por exemplo uma venda na loja, ou uma entrega. Isso acontece através de um POST simples, por HTTPS, em nossa API REST.
+A seguir reunimos as principais informações para integrar com a plataforma binds.co.
+A idéia é notificar a plataforma binds.co quando ocorre o evento em questão, por exemplo uma venda na loja, ou uma entrega. Isso acontece através de um POST simples, por HTTPS, em nossa API REST.
 
 Por exemplo, experimente fazer esta requisição, com seu próprio `collector`, nome e endereço de e-mail:
 
