@@ -10,21 +10,16 @@ $requestBody = array(
 );
 
 $curl = curl_init();
-
-curl_setopt_array($curl, array(
-  CURLOPT_URL => 'https://app.binds.co/api/seeds',
-  CURLOPT_RETURNTRANSFER => true,
-  CURLOPT_ENCODING => '',
-  CURLOPT_MAXREDIRS => 10,
-  CURLOPT_TIMEOUT => 30,
-  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-  CURLOPT_CUSTOMREQUEST => 'POST',
-  CURLOPT_POSTFIELDS => json_encode($requestBody),
-  CURLOPT_HTTPHEADER => array(
-    'content-type: application/json; charset=UTF-8'
-  ),
-));
-
+$headers = array('content-type: application/json; charset=UTF-8');
+curl_setopt($curl, CURLOPT_URL, 'https://app.binds.co/api/seeds');
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($curl, CURLOPT_ENCODING, '');
+curl_setopt($curl, CURLOPT_MAXREDIRS, 10);
+curl_setopt($curl, CURLOPT_TIMEOUT, 30);
+curl_setopt($curl, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
+curl_setopt($curl, CURLOPT_CUSTOMREQUEST, 'POST');
+curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($requestBody));
+curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 $response = curl_exec($curl);
 $err = curl_error($curl);
 
